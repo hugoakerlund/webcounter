@@ -2,6 +2,7 @@
 Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
+Test Setup      Set Counter To Zero
 
 *** Test Cases ***
 At start the counter is zero
